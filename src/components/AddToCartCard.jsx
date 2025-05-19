@@ -14,6 +14,7 @@ import {
 import CloseIcon from "@mui/icons-material/Close";
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import { useCart } from "../context/CartContext";
+// Import all necessary assets properly
 import foodImage from "../assets/download.jpeg";
 
 const AddToCartCard = ({ open, onClose, food }) => {

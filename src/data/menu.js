@@ -1,3 +1,10 @@
+import burgerImg from '../assets/download.jpeg';
+import shawarmaImg from '../assets/shawarma.jpeg';
+import mealsImg from '../assets/meals.jpeg';
+import crepeImg from '../assets/crepe.jpeg';
+import saladImg from '../assets/salad.webp';
+import drinksImg from '../assets/drinks.jpg';
+
 export const categories = [
   {
     id: 'weekly_offer',
@@ -49,7 +56,7 @@ export const menuItems = [
     title: 'برجر لحم بلاك أنجلوس',
     desc: 'برجر لحم بلاك أنجلوس مع جبنة شيدر وصلصة خاصة',
     price: 120,
-    image: '/src/assets/download.jpeg',
+    image: burgerImg,
     badge: 'خصم 25%',
     originalCategory: 'burgers',
     dateAdded: '2024-03-15'
@@ -60,7 +67,7 @@ export const menuItems = [
     title: 'شاورما لحم',
     desc: ' شاورما لحم مع صلصة خاصة',
     price: 75,
-    image: '/src/assets/shawarma.jpeg',
+    image: shawarmaImg,
     badge: 'خصم 20%',
     originalCategory: 'shawarma',
     dateAdded: '2024-03-15'
@@ -71,7 +78,7 @@ export const menuItems = [
     title: 'وجبة دجاج مشوي',
     desc: 'دجاج مشوي مع أرز وخضروات',
     price: 95,
-    image: '/src/assets/meals.jpeg',
+    image: mealsImg,
     badge: 'خصم 15%',
     originalCategory: 'meals',
     dateAdded: '2024-03-15'
@@ -82,7 +89,7 @@ export const menuItems = [
     title: 'كريب زنجر',
     desc: '  كريب زنجر مع جبنة شيدر وصلصة خاصة',
     price: 70,
-    image: '/src/assets/crepe.jpeg',
+    image: crepeImg,
     badge: 'خصم 10%',
     originalCategory: 'crepes',
     dateAdded: '2024-03-15'
@@ -95,7 +102,7 @@ export const menuItems = [
     title: 'برجر لحم بلاك أنجلوس',
     desc: 'برجر لحم بلاك أنجلوس مع جبنة شيدر وصلصة خاصة',
     price: 90,
-    image: '/src/assets/download.jpeg',
+    image: burgerImg,
     badge: 'جديد',
     originalCategory: 'burgers',
     dateAdded: '2024-03-20'
@@ -106,7 +113,7 @@ export const menuItems = [
     title: 'شاورما دجاج',
     desc: 'شاورما دجاج مع صلصة الثوم والخضروات',
     price: 65,
-    image: '/src/assets/shawarma.jpeg',
+    image: shawarmaImg,
     badge: 'جديد',
     originalCategory: 'shawarma',
     dateAdded: '2024-03-20'
@@ -117,7 +124,7 @@ export const menuItems = [
     title: 'وجبة كفتة',
     desc: 'كفتة مشوية مع أرز وخضروات',
     price: 110,
-    image: '/src/assets/meals.jpeg',
+    image: mealsImg,
     badge: 'جديد',
     originalCategory: 'meals',
     dateAdded: '2024-03-20'
@@ -128,7 +135,7 @@ export const menuItems = [
     title: 'كريب جبنة',
     desc: 'كريب مع جبنة وخضروات',
     price: 60,
-    image: '/src/assets/crepe.jpeg',
+    image: crepeImg,
     badge: 'جديد',
     originalCategory: 'crepes',
     dateAdded: '2024-03-20'
@@ -141,7 +148,7 @@ export const menuItems = [
     title: 'وجبة دجاج مشوي',
     desc: 'دجاج مشوي مع أرز وخضروات',
     price: 95,
-    image: '/src/assets/meals.jpeg',
+    image: mealsImg,
     dateAdded: '2024-03-01'
   },
   {
@@ -150,7 +157,7 @@ export const menuItems = [
     title: 'برجر لحم بلاك أنجلوس',
     desc: 'برجر لحم بلاك أنجلوس مع جبنة شيدر وصلصة خاصة',
     price: 90,
-    image: '/src/assets/download.jpeg',
+    image: burgerImg,
     dateAdded: '2024-03-01'
   },
   {
@@ -159,7 +166,7 @@ export const menuItems = [
     title: 'شاورما دجاج',
     desc: 'شاورما دجاج مع صلصة الثوم',
     price: 65,
-    image: '/src/assets/shawarma.jpeg',
+    image: shawarmaImg,
     dateAdded: '2024-03-01'
   },
   {
@@ -168,7 +175,7 @@ export const menuItems = [
     title: 'كريب زنجر',
     desc: '  كريب زنجر مع جبنة شيدر وصلصة خاصة',
     price: 70,
-    image: '/src/assets/crepe.jpeg',
+    image: crepeImg,
     dateAdded: '2024-03-01'
   },
   {
@@ -177,7 +184,7 @@ export const menuItems = [
     title: 'سلطة قيصر',
     desc: 'سلطة قيصر مع دجاج مشوي',
     price: 55,
-    image: '/src/assets/salad.webp',
+    image: saladImg,
     dateAdded: '2024-03-01'
   },
   {
@@ -186,7 +193,7 @@ export const menuItems = [
     title: 'عصير شعير',
     desc: 'عصير شعير طبيعي',
     price: 20,
-    image: '/src/assets/drinks.jpg',
+    image: drinksImg,
     dateAdded: '2024-03-01'
   }
 ];

@@ -122,17 +122,27 @@ const RestaurantInfo = () => {
                     }
                   }}
                   icon={
-                    <Box 
-                      component="span" 
-                      sx={{ 
-                        fontSize: { xs: 12, sm: 14, md: 16 }, 
-                        display: "flex", 
-                        alignItems: "center",
+                    <Box
+                      component="span"
+                      sx={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        transform: {
+                          xs: 'scale(0.6)',
+                          sm: 'scale(0.8)',
+                          md: 'scale(1)',
+                        },
+                        transformOrigin: 'center',
                       }}
                     >
                       🏆
                     </Box>
                   }
+                  
+                  
+                  
+                  
                 />
               </Box>
             </Grid>
@@ -167,7 +177,7 @@ const RestaurantInfo = () => {
                   bgcolor: "rgba(0,0,0,0.03)",
                 }}
               >
-                <AccessTimeIcon sx={{ fontSize: { xs: 20, sm: 22, md: 24 }, color: "#666" }} />
+                <AccessTimeIcon sx={{ fontSize: { xs: 18, sm: 20, md: 22 }, color: "#666" }} />
               </Box>
               <Typography sx={{ color: "#333", fontWeight: 600, fontSize: { xs: 10, sm: 12, md: 15 } }}>
                 15 - 25 دقيقة
@@ -193,7 +203,7 @@ const RestaurantInfo = () => {
                   bgcolor: "rgba(0,0,0,0.03)",
                 }}
               >
-                <DeliveryDiningIcon sx={{ fontSize: { xs: 10, sm: 12, md: 15 } , color: "#666" }} />
+                <DeliveryDiningIcon sx={{ fontSize: { xs: 18, sm: 20, md: 22 } , color: "#666" }} />
               </Box>
               <Typography sx={{ color: "#333", fontWeight: 600,fontSize: { xs: 10, sm: 12, md: 15 }  }}>
                 16.99 ج.م
